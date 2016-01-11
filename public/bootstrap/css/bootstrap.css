@@ -1126,7 +1126,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
 }
 .img-rounded {
@@ -6081,7 +6081,8 @@ button.close {
   max-width: none;
 }
 .carousel-inner > .item {
-  position: relative;
+  /*position: relative;*/
+  position: absolute;
   display: none;
   -webkit-transition: .6s ease-in-out left;
        -o-transition: .6s ease-in-out left;
