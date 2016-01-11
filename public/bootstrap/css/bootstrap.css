@@ -1126,9 +1126,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  /*max-width: 100%;*/
-  /*height: auto;*/
-  padding-top: 31.25%;
+  max-width: 100%;
+  height: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6070,9 +6069,16 @@ button.close {
   position: relative;
 }
 .carousel-inner {
-  position: relative;
+  /*position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden;*/
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
 }
 .carousel-inner > .item {
   position: relative;
