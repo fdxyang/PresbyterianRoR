@@ -6068,6 +6068,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  padding: 31.35%;
 }
 .carousel-inner {
   /*position: relative;
